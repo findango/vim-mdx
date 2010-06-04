@@ -5,10 +5,6 @@
 " Version:     1 
 " Last Change: 3 June 2010
 
-if exists("did_load_filetypes")
-    finish
-endif
-
 augroup mdxdetect
     au! BufRead,BufNewFile *.mdx setfiletype mdx 
 augroup END 
