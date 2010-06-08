@@ -92,14 +92,14 @@ if version >= 508 || !exists("did_mdx_syn_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink mdxComment	Comment
-  HiLink mdxKeyword	mdxSpecial
-  HiLink mdxNumber	Number
-  HiLink mdxOperator	mdxStatement
-  HiLink mdxSpecial	Special
-  HiLink mdxStatement	Statement
-  HiLink mdxString	String
-  HiLink mdxTodo	Todo
+  HiLink mdxComment    Comment
+  HiLink mdxKeyword    mdxSpecial
+  HiLink mdxNumber     Number
+  HiLink mdxOperator   mdxStatement
+  HiLink mdxSpecial    Special
+  HiLink mdxStatement  Statement
+  HiLink mdxString     String
+  HiLink mdxTodo       Todo
 
   delcommand HiLink
 endif
