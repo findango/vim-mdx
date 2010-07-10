@@ -1,0 +1,7 @@
+-- just a simple sample
+SELECT
+    [Measures].[foo] ON COLUMNS,
+    [AnyHierarchy].[bar] ON ROWS
+FROM [Example]
+CELL PROPERTIES Value, Formatted_Value, Language;
+
