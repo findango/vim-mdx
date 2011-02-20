@@ -1,7 +1,8 @@
 " Vim syntax file
-" Language:     MDX (MultiDimensional eXpressions)
-" Maintainer:   Finlay Cannon <fin AT finlaycannon DOT com>
-" Last Change:  26 Feb 2008
+" Language:    MDX (MultiDimensional eXpressions)
+" Maintainer:  Finlay Cannon <fin AT finlaycannon DOT com>
+" URL:         http://github.com/findango/mdxdotvim
+" Last Change: 26 Feb 2008
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
