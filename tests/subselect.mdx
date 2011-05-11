@@ -1,0 +1,13 @@
+// An example of subcubing
+SELECT
+	[Reseller].[Bank Name].[Bank Name].Members
+	ON COLUMNS,
+  
+	[Date].[Calendar].[Month].Members
+	ON ROWS
+FROM (
+	SELECT 
+		HEAD([Reseller].[Bank Name].[Bank Name].Members, 3) ON COLUMNS,
+		UNION([Date].[Calendar Year].&[2002], [Date].[Calendar Year].&[2004]) ON ROWS
+	FROM [Adventure Works])
+WHERE [Measures].[Internet Tax Amount] 
