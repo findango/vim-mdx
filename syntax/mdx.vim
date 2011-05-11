@@ -69,6 +69,9 @@ syn keyword mdxStatement session set subcube update where with
 syn region mdxString    start=+"+  skip=+\\\\\|\\"+  end=+"+
 syn region mdxString    start=+'+  skip=+\\\\\|\\'+  end=+'+
 
+" Member names
+syn region mdxIdentifier start="\[" end="\]"
+
 " Numbers
 syn match mdxNumber     "-\=\<\d*\.\=[0-9_]\>"
 
@@ -101,6 +104,7 @@ if version >= 508 || !exists("did_mdx_syn_inits")
   HiLink mdxStatement  Statement
   HiLink mdxString     String
   HiLink mdxTodo       Todo
+  HiLink mdxIdentifier Normal
 
   delcommand HiLink
 endif
