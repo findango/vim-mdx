@@ -1,0 +1,13 @@
+WITH MEMBER [Date].[Calendar].[First8Months2003] AS
+    Aggregate(
+        PeriodsToDate(
+            [Date].[Calendar].[Calendar Year], 
+            [Date].[Calendar].[Month].[August 2003]
+        )
+    )
+SELECT 
+    [Date].[Calendar].[First8Months2003] ON COLUMNS,
+    [Product].[Category].Children ON ROWS
+FROM [Adventure Works]
+WHERE [Measures].[Order Quantity]
+
