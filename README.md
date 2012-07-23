@@ -8,8 +8,8 @@ installing [pathogen.vim](https://github.com/tpope/vim-pathogen), and
 then simply copy and paste:
 
     cd ~/.vim/bundle
-    git clone git://github.com/findango/mdxdotvim.git
+    git clone https://github.com/findango/mdxdotvim.git
 
 Or you can manually copy the files:
-Copy syntax/mdx.vim to your .vim/syntax/ or vimfiles/syntax/ directory
-Copy ftdetect/mdx.vim to your .vim/ftdetect/ or vimfiles/ftdetect/ directory
+* Copy syntax/mdx.vim to your .vim/syntax/ or vimfiles/syntax/ directory
+* Copy ftdetect/mdx.vim to your .vim/ftdetect/ or vimfiles/ftdetect/ directory
