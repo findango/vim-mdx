@@ -8,7 +8,7 @@ installing [pathogen.vim](https://github.com/tpope/vim-pathogen), and
 then simply copy and paste:
 
     cd ~/.vim/bundle
-    git clone git://github.com/findango/mdxdotvim.git
+    git clone https://github.com/findango/mdxdotvim.git
 
 Or you can manually copy the files:
 
