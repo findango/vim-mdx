@@ -12,7 +12,7 @@ then simply copy and paste:
 
 Or you can manually copy the files:
 
-    git clone git://github.com/findango/mdxdotvim.git
+    git clone https://github.com/findango/mdxdotvim.git
     cd mdxdotvim
     cp syntax/mdx.vim ~/.vim/syntax/
     cp ftdetect/mdx.vim ~/.vim/ftdetect/
