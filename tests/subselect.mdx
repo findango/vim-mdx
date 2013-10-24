@@ -9,5 +9,6 @@ FROM (
 	SELECT 
 		HEAD([Reseller].[Bank Name].[Bank Name].Members, 3) ON COLUMNS,
 		UNION([Date].[Calendar Year].&[2002], [Date].[Calendar Year].&[2004]) ON ROWS
-	FROM [Adventure Works])
+	FROM [Adventure Works]
+)
 WHERE [Measures].[Internet Tax Amount] 
