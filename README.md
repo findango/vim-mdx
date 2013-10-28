@@ -1,4 +1,6 @@
-Syntax coloring for the MDX language (OLAP queries).
+Syntax highlighting for the MDX query language (OLAP).
+
+![Screenshot](screenshot.png?raw=true)
 
 Installation
 ------------
