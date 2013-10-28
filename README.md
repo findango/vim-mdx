@@ -5,7 +5,7 @@ Installation
 
 If you don't have a preferred installation method, I recommend
 installing [pathogen.vim](https://github.com/tpope/vim-pathogen), and
-then simply copy and paste:
+then cloning the repo:
 
     cd ~/.vim/bundle
     git clone https://github.com/findango/mdxdotvim.git
@@ -18,5 +18,5 @@ Or you can manually copy the files:
     cp ftdetect/mdx.vim ~/.vim/ftdetect/
     cp ftplugin/mdx.vim ~/.vim/ftplugin
 
-Substitute ~/.vim/ with $HOME/vimfiles/ or $VIM/vimfiles/ on Windows.
+On Windows, substitute `~/.vim/` with `$HOME/vimfiles/` or `$VIM/vimfiles/`.
 
