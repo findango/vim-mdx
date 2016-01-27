@@ -16,7 +16,7 @@ then cloning the repo:
 Or you can manually copy the files:
 
     git clone https://github.com/findango/vim-mdx.git
-    cd mdxdotvim
+    cd vim-mdx
     cp syntax/mdx.vim ~/.vim/syntax/
     cp ftdetect/mdx.vim ~/.vim/ftdetect/
     cp ftplugin/mdx.vim ~/.vim/ftplugin
